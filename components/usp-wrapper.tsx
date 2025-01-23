@@ -17,7 +17,7 @@ export const UspWrapper = ({
   return (
     <div
       className={classNames(
-        'relative order-[var(--order)] flex min-h-[48rem] min-w-full snap-center flex-col items-center overflow-hidden rounded-[4.8rem] border border-e-grey bg-[#ffffff] text-center md:order-none md:min-w-0 py-8',
+        'relative order-[var(--order)] flex min-h-[48rem] min-w-full snap-center flex-col items-center overflow-hidden rounded-[4.8rem] border text-center md:order-none md:min-w-0 py-8',
         className,
         'before:usp-mask before:pointer-events-none before:absolute before:inset-0 before:rounded-[inherit] before:bg-usp-gradient-2',
         reverse ? 'justify-start' : 'justify-end'

@@ -19,15 +19,15 @@ export const StressFreeManagement = () => {
         </p>
       </Container>
       <div className="h-[48rem] overflow-y-hidden md:mx-auto md:h-auto md:max-w-[120rem] md:overflow-y-auto">
-        <div className="flex flex-shrink-0 snap-x snap-mandatory gap-3 overflow-x-auto px-6 pb-12 md:grid md:grid-cols-6 md:gap-6 md:overflow-x-hidden md:px-8">
-          <UspWrapper className="col-span-3 overflow-hidden [--order:3]">
+        <div className="flex flex-shrink-0 snap-x snap-mandatory gap-3 overflow-x-auto px-6 pb-12 md:grid md:grid-cols-8 md:gap-6 md:overflow-x-hidden md:px-8">
+          <UspWrapper className="col-span-5 overflow-hidden [--order:3] border-e-grey bg-[#ffffff] ">
             <MaintenanceManagement />
             <UspTitle>Tenant & Owner Portals</UspTitle>
             <UspSubTitle>
               Easy communication and reporting to occupants and property owners.
             </UspSubTitle>
           </UspWrapper>
-          <UspWrapper className="col-span-3 [--order:1]">
+          <UspWrapper className="col-span-3 [--order:1] border-e-grey bg-[#ffffff] ">
             <TenantOwnerPortals />
             <UspTitle>Maintenance Management</UspTitle>
             <UspSubTitle>
