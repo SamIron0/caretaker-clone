@@ -39,7 +39,7 @@ export const Paperless = () => {
           </div>
           <div className="h-[48rem] overflow-y-hidden md:mx-auto md:h-auto md:max-w-[120rem] md:overflow-y-auto">
             <div className="flex flex-shrink-0 snap-x snap-mandatory gap-3 overflow-x-auto px-6 pb-12 md:grid md:grid-cols-8 md:gap-6 md:overflow-x-hidden md:px-8">
-              <UspWrapper className="col-span-3 [--order:1 border-grey-dark bg-[#101723] py-0 relative min-h-[38rem]">
+              <UspWrapper className="col-span-3 [--order:1 border-grey-dark bg-[#101723] py-0 relative ">
                 <div className="absolute inset-x-0 top-8 z-10 text-left px-8">
                   <UspTitle className="text-off-white">
                     Issues Reporting & Management
@@ -50,7 +50,7 @@ export const Paperless = () => {
                 </div>
                 <IssueReporting />
               </UspWrapper>
-              <UspWrapper className="col-span-5 [--order:3] border-grey-dark bg-[#101723] py-0 relative min-h-[38rem]">
+              <UspWrapper className="col-span-5 [--order:3] border-grey-dark bg-[#101723] py-0 relative">
                 <div className="absolute inset-x-0 top-8 z-10 text-left px-8">
                   <UspTitle className="text-off-white">Documentation</UspTitle>
                   <UspSubTitle>
