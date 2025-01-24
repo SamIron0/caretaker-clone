@@ -15,7 +15,7 @@ export const StreamlinedOperations = () => {
           optimize profitability, and gain peace of mind.{" "}
         </p>
       </Container>
-      <div className="h-[48rem] overflow-y-hidden md:mx-auto md:h-auto md:max-w-[120rem] md:overflow-y-auto">
+      <div className="overflow-y-hidden md:mx-auto md:h-auto md:max-w-[120rem] md:overflow-y-auto">
         <div className="flex flex-shrink-0 snap-x snap-mandatory gap-3 overflow-x-auto px-6 pb-12 md:grid md:grid-cols-8 md:gap-6 md:overflow-x-hidden md:px-8">
           <UspWrapper
             className="col-span-5 [--order:1] border-e-grey bg-[#ffffff] "
