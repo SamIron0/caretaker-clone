@@ -1,5 +1,4 @@
 import classNames from 'classnames';
-import { Stars } from './illustrations/stars';
 
 export const StarComponent = ({ reverse = false }: { reverse?: boolean }) => {
   return (

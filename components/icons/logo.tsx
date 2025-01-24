@@ -1,4 +1,4 @@
-export const Logo = ({ className }: { className?: string }) => (
+export const Logo = () => (
   <svg width="108.761" height="29" xmlns="http://www.w3.org/2000/svg">
     <g fillRule="nonzero" fill="none">
       <path

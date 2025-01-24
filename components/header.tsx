@@ -37,7 +37,7 @@ export const Header = () => {
     <header className='fixed left-0 top-0 z-10 w-full border-b border-white-a08 backdrop-blur-[12px]'>
       <Container className='flex h-[var(--navigation-height)] items-center'>
         <Link className='flex items-center text-md font-medium' href='/'>
-          <Logo className='mr-4 h-[1.8rem] w-[1.8rem]' /> 
+          <Logo /> 
         </Link>
 
         <div

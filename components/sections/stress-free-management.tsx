@@ -1,4 +1,3 @@
-import classNames from "classnames";
 import { Container } from "../container";
 import { UspSubTitle, UspTitle, UspWrapper } from "../usp-wrapper";
 import { MaintenanceManagement } from "../illustrations/maintenance-management";

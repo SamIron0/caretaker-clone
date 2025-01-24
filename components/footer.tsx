@@ -29,7 +29,7 @@ export const Footer = () => {
         <div>
           <div className="flex h-full flex-row lg:flex-col">
             <div className="flex cursor-pointer items-center text-grey transition-colors duration-300 hover:text-white">
-              <Logo className="mr-2 h-4 w-4" />
+              <Logo />
             </div>
             <div className="ml-auto mt-auto flex space-x-6 text-grey lg:ml-0">
               <Insta />

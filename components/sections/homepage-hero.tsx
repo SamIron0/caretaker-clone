@@ -24,10 +24,10 @@ export const HomePageHero = () => {
         <HeroSubtitle className="translate-y-[-1rem] animate-fade-in opacity-0 [--animation-delay:600ms]">
           Streamline operations, reduce costs, and stay connected with your
           properties <br className="hidden md:block" />
-          whether you're at home or abroad — on Caretaker's all-in-one platform.
+          whether you&apos;re at home or abroad — on Caretaker&apos;s all-in-one platform.
         </HeroSubtitle>
       </div>
-      <div className="space-x-4">
+      <div className="space-x-4 space-y-2 md:space-y-0">
         <Button
           href="/"
           variant="primary"

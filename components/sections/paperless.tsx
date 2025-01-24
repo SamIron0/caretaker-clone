@@ -4,8 +4,6 @@ import classNames from "classnames";
 import { UspTitle } from "../usp-wrapper";
 import { UspSubTitle } from "../usp-wrapper";
 import { UspWrapper } from "../usp-wrapper";
-import { TenantOwnerPortals } from "../illustrations/tenant-owner-portals";
-import { MaintenanceManagement } from "../illustrations/maintenance-management";
 import { Documentation } from "../illustrations/documentation";
 import { IssueReporting } from "../illustrations/issue-reporting";
 
